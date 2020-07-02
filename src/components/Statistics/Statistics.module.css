@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    margin: 60px 0px;
+    padding: 0
+  }
+.title {
+    color:rgb(10, 9, 10); 
+    font-weight: 700 !important
+}
+
+.box {
+    margin: 0 30px !important;
+}
+
+.total {
+    color: rgb(0,0,255) !important;
+}
+
+.active {
+    color: rgb(127,15,135) !important;
+}
+
+.discharged {
+    color:rgb(44,143,27) !important;
+}
+
+.deceased {
+    color:rgb(128,39,9) !important;
+
+}
+.date {
+    margin-left: 30px !important;
+}
+
+
+@media (max-width: 770px) {
+    .box {
+        margin: 3% 0 !important;
+    }
+}
